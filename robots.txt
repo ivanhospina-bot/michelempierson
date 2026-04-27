@@ -1,0 +1,10 @@
+# robots.txt for michelempierson.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://michelempierson.com/sitemap.xml
+
+# Crawl-delay (optional, for politeness)
+Crawl-delay: 1

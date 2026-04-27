@@ -3,8 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michele M. Pierson, LCSW-S | Licensed Clinical Social Worker</title>
-    <meta name="description" content="Michele M. Pierson, LCSW-S offers compassionate therapy services in Austin, TX. Specializing in anxiety, depression, relationships, and personal growth.">
+    <title>Michele M. Pierson, LCSW-S | Licensed Clinical Social Worker in Austin, TX</title>
+    <meta name="description" content="Michele M. Pierson, LCSW-S - Licensed Clinical Social Worker in Austin, Texas providing therapy for anxiety, depression, trauma, grief, and relationship issues. Offering telehealth and in-person sessions. BIPOC-affirming therapist.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://michelempierson.com/">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Michele M. Pierson, LCSW-S">
+    <meta name="geo.region" content="US-TX">
+    <meta name="geo.placename" content="Austin">
+    <meta name="keywords" content="therapist Austin TX, LCSW Austin, anxiety therapy, depression therapy, trauma therapist, grief counseling, BIPOC therapist Austin, Latinx therapist, telehealth therapy Texas">
+    
+    <!-- Open Graph (Facebook, LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Michele M. Pierson, LCSW-S | Licensed Clinical Social Worker in Austin, TX">
+    <meta property="og:description" content="Compassionate therapy services in Austin, TX. Specializing in anxiety, depression, trauma, relationships, and personal growth. BIPOC-affirming therapist.">
+    <meta property="og:url" content="https://michelempierson.com/">
+    <meta property="og:image" content="https://michelempierson.com/MichelePiersonProfilePic.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Michele M. Pierson Therapy">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Michele M. Pierson, LCSW-S | Licensed Clinical Social Worker">
+    <meta name="twitter:description" content="Compassionate therapy services in Austin, TX. Specializing in anxiety, depression, trauma, relationships, and personal growth.">
+    <meta name="twitter:image" content="https://michelempierson.com/MichelePiersonProfilePic.jpg">
+    
+    <!-- Performance -->
+    <link rel="preload" as="image" href="MichelePiersonProfilePic.jpg">
+    <link rel="dns-prefetch" href="//formspree.io">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -723,10 +753,79 @@
             }
         }
     </style>
+    
+    <!-- Structured Data - LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://michelempierson.com/",
+      "name": "Michele M. Pierson, LCSW-S",
+      "description": "Licensed Clinical Social Worker offering therapy services in Austin, TX. Specializing in anxiety, depression, trauma, grief, and relationship issues.",
+      "url": "https://michelempierson.com/",
+      "image": "https://michelempierson.com/MichelePiersonProfilePic.jpg",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Austin"
+      },
+      "sameAs": [
+        "https://www.psychologytoday.com/us/therapists/michele-marie-pierson-austin-tx/1188746",
+        "https://latinxtherapy.com/therapists/michele-m-pierson-lcsw-s-she-her-ella/",
+        "https://care.headway.co/providers/michele-pierson"
+      ]
+    }
+    </script>
+    
+    <!-- Structured Data - Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Michele M. Pierson",
+      "jobTitle": "Licensed Clinical Social Worker - Supervisor",
+      "description": "LCSW-S specializing in trauma-informed care for children, individuals, and families in Austin, Texas",
+      "knowsAbout": ["Anxiety", "Depression", "Trauma", "Grief", "Relationships", "Life Transitions", "BIPOC Mental Health"],
+      "workLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Austin",
+          "addressRegion": "TX",
+          "addressCountry": "US"
+        }
+      }
+    }
+    </script>
+    
+    <!-- Structured Data - ProfessionalService -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Michele M. Pierson Therapy Services",
+      "serviceType": ["Individual Therapy", "Family Therapy", "Child Therapy", "Trauma Therapy", "Anxiety Treatment", "Depression Treatment"],
+      "areaServed": {
+        "@type": "State",
+        "name": "Texas"
+      },
+      "provider": {
+        "@type": "Person",
+        "name": "Michele M. Pierson",
+        "jobTitle": "LCSW-S"
+      }
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
-    <nav>
+    <nav role="navigation" aria-label="Main navigation">
         <a href="#" class="logo">Michele M. Pierson</a>
         <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
         <ul class="nav-links">
@@ -738,8 +837,9 @@
         </ul>
     </nav>
 
+    <main>
     <!-- Hero Section -->
-    <section class="hero" id="home">
+    <header class="hero" id="home" role="banner">
         <div class="hero-container">
             <div class="hero-content">
                 <h1>Michele M. Pierson</h1>
@@ -750,13 +850,13 @@
                 <a href="#about" class="btn btn-secondary">Learn More</a>
             </div>
             <div class="hero-image">
-                <img src="MichelePiersonProfilePic.jpg" alt="Michele M. Pierson, LCSW-S - Licensed Clinical Social Worker">
+                <img src="MichelePiersonProfilePic.jpg" alt="Michele M. Pierson, LCSW-S - Licensed Clinical Social Worker and therapist in Austin, Texas" loading="eager">
             </div>
         </div>
-    </section>
+    </header>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <article class="about" id="about">
         <div class="section-header">
             <h2>About Michele</h2>
             <div class="divider"></div>
@@ -778,10 +878,10 @@
                 <p>Healing and self-reflection can be powerful—and at times, challenging—which is why finding the right connection matters.</p>
             </div>
             <div class="about-image">
-                <img src="MichelePiersonProfilePic.jpg" alt="Michele Pierson Therapy Office" style="width: 100%; border-radius: 10px; box-shadow: 0 20px 50px rgba(0,0,0,0.1);">
+                <img src="MichelePiersonProfilePic.jpg" alt="Michele Pierson - Compassionate therapist providing mental health services in Austin, Texas" style="width: 100%; border-radius: 10px; box-shadow: 0 20px 50px rgba(0,0,0,0.1);" loading="lazy">
             </div>
         </div>
-    </section>
+    </article>
 
     <!-- Services Section -->
     <section class="services" id="services">
@@ -932,8 +1032,10 @@
         </div>
     </section>
 
+    </main>
+
     <!-- Footer -->
-    <footer>
+    <footer role="contentinfo">
         <div class="footer-content">
             <div class="footer-logo">Michele M. Pierson, LCSW-S</div>
             <p class="footer-tagline">Healing Starts Here</p>
